@@ -199,6 +199,17 @@ module.exports = require("stream");
 
 /***/ }),
 
+/***/ "string_decoder":
+/*!*********************************!*\
+  !*** external "string_decoder" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("string_decoder");
+
+/***/ }),
+
 /***/ "tls":
 /*!**********************!*\
   !*** external "tls" ***!
@@ -207,6 +218,17 @@ module.exports = require("stream");
 
 "use strict";
 module.exports = require("tls");
+
+/***/ }),
+
+/***/ "tty":
+/*!**********************!*\
+  !*** external "tty" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
 
 /***/ }),
 
@@ -262,6 +284,28 @@ module.exports = require("zlib");
 
 "use strict";
 module.exports = require("node:crypto");
+
+/***/ }),
+
+/***/ "node:stream":
+/*!******************************!*\
+  !*** external "node:stream" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:stream");
+
+/***/ }),
+
+/***/ "node:worker_threads":
+/*!**************************************!*\
+  !*** external "node:worker_threads" ***!
+  \**************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:worker_threads");
 
 /***/ }),
 
@@ -446,7 +490,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/thirdweb","vendor-chunks/@walletconnect","vendor-chunks/viem","vendor-chunks/@noble","vendor-chunks/ox","vendor-chunks/abitype","vendor-chunks/next","vendor-chunks/@tanstack","vendor-chunks/multiformats","vendor-chunks/@emotion","vendor-chunks/pino","vendor-chunks/ws","vendor-chunks/@radix-ui","vendor-chunks/uint8arrays","vendor-chunks/fast-redact","vendor-chunks/stylis","vendor-chunks/react-remove-scroll","vendor-chunks/@swc","vendor-chunks/@passwordless-id","vendor-chunks/@floating-ui","vendor-chunks/pino-std-serializers","vendor-chunks/react-style-singleton","vendor-chunks/react-remove-scroll-bar","vendor-chunks/use-callback-ref","vendor-chunks/thread-stream","vendor-chunks/mipd","vendor-chunks/@babel","vendor-chunks/use-sidecar","vendor-chunks/react-is","vendor-chunks/tslib","vendor-chunks/idb-keyval","vendor-chunks/fuse.js","vendor-chunks/destr","vendor-chunks/bs58","vendor-chunks/base-x","vendor-chunks/sonic-boom","vendor-chunks/safe-stable-stringify","vendor-chunks/quick-format-unescaped","vendor-chunks/process-warning","vendor-chunks/on-exit-leak-free","vendor-chunks/hoist-non-react-statics","vendor-chunks/get-nonce","vendor-chunks/detect-browser","vendor-chunks/atomic-sleep","vendor-chunks/aria-hidden"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2Fworkspaces%2Fthirdweb-marketplace-netlify%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2Fworkspaces%2Fthirdweb-marketplace-netlify&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/thirdweb","vendor-chunks/@walletconnect","vendor-chunks/viem","vendor-chunks/@noble","vendor-chunks/ox","vendor-chunks/abitype","vendor-chunks/next","vendor-chunks/@tanstack","vendor-chunks/pino-pretty","vendor-chunks/multiformats","vendor-chunks/@emotion","vendor-chunks/pino","vendor-chunks/ws","vendor-chunks/@radix-ui","vendor-chunks/uint8arrays","vendor-chunks/fast-redact","vendor-chunks/stylis","vendor-chunks/react-remove-scroll","vendor-chunks/@swc","vendor-chunks/@passwordless-id","vendor-chunks/@floating-ui","vendor-chunks/pino-std-serializers","vendor-chunks/react-style-singleton","vendor-chunks/react-remove-scroll-bar","vendor-chunks/use-callback-ref","vendor-chunks/thread-stream","vendor-chunks/mipd","vendor-chunks/@babel","vendor-chunks/use-sidecar","vendor-chunks/react-is","vendor-chunks/tslib","vendor-chunks/idb-keyval","vendor-chunks/fuse.js","vendor-chunks/destr","vendor-chunks/bs58","vendor-chunks/base-x","vendor-chunks/sonic-boom","vendor-chunks/secure-json-parse","vendor-chunks/fast-copy","vendor-chunks/colorette","vendor-chunks/wrappy","vendor-chunks/split2","vendor-chunks/safe-stable-stringify","vendor-chunks/quick-format-unescaped","vendor-chunks/pump","vendor-chunks/process-warning","vendor-chunks/once","vendor-chunks/on-exit-leak-free","vendor-chunks/hoist-non-react-statics","vendor-chunks/get-nonce","vendor-chunks/fast-safe-stringify","vendor-chunks/end-of-stream","vendor-chunks/detect-browser","vendor-chunks/dateformat","vendor-chunks/atomic-sleep","vendor-chunks/aria-hidden"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2Fworkspaces%2Fthirdweb-marketplace-netlify%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2Fworkspaces%2Fthirdweb-marketplace-netlify&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
